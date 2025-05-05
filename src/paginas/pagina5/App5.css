@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f6fc;
+}
+
+.pagina {
+  max-width: 100%;
+  width: 98%;
+  margin: 0 auto;
+  padding: 20px;
+  top: 0;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e90ff;
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+}
+
+.cabecalho-direita {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.info-conta {
+  background-color: white;         /* fundo branco */
+  color: #1e3a8a;                  /* azul escuro (tipo azul-900) */
+  padding: 12px 16px;
+  border-radius: 12px;             /* bordas suaves */
+  font-size: 14px;
+  text-align: left;
+  white-space: pre-line;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* sombra leve */
+  border: 1px solid #cbd5e1;               /* contorno sutil */
+}
+
+.foto-perfil {
+  background-color: white;
+  color: #1e90ff;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.valores {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  background-color: #8ec5ff;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #1e3a8a; 
+}
+
+.valores div {
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  min-width: 200px;
+  text-align: center;
+  background-color: #8ec5ff;
+}
+
+.historicos{
+  background-color:#f0f6fc;
+  height: 520px;
+  width: 100%;
+  display: grid;
+}
+
+.historico_1{
+  color: #386dff;
+  background-color: #dbeafe;
+  border-radius: 10px;
+  height: 150px;
+}
+
+.tipo1{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: green;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  height: 30px;
+}
+
+.historico_2{
+  color: #386dff;
+  background-color: #dbeafe;
+  border-radius: 10px;
+  height: 150px;
+}
+
+.tipo2{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.transacao{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  text-align: center;
+}
+
+.VALOR{
+  display: grid;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.DATA{
+  display: grid;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.SALDO{
+  display: grid;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.espaco_vazio{
+  height: 20px;
+}
+
+.botao{
+  width: 100%;
+  text-align: center;
+}
+
+.bt_voltar button{
+  text-align: center;
+  padding: 0;
+  background-color: #1e90ff;
+  color: white;
+  border-radius: 10px;
+  height: 60px;
+  width: 90px;
+  font-size: 20px;
+  outline: 0px;
+}
+
+.bt_voltar button:hover{
+  cursor: pointer;
+  background-color: #1e3a8a;
+  transition: 0.5s;
+}
